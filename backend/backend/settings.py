@@ -97,11 +97,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'KeepNotes',
-        'USER' :'postgres',
-        'PASSWORD' : 'aditya',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': 'db_name',
+        'USER' :'username',
+        'PASSWORD' : 'password',
+        'HOST': '',
+        'PORT': 'PORT_NO',
     }
 }
 
